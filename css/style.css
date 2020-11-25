@@ -1,0 +1,459 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;	
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*reen project start*/
+
+/*header-section start*/
+
+.header-section{
+	width: 100%;
+}
+.top-header{
+	width: 100%;
+	background: #f5f7fa;
+	padding: 3px 0px;
+}
+.info{
+	width: 100%;
+
+}
+.info ul{
+	margin: 0px;
+	padding: 0px;
+}
+.info ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 12px;
+}
+.info ul li a{
+	font-size: 14px;
+	font-weight: 400px;
+	color: #506a85;
+	text-decoration: none;
+}
+.info .fa{
+	margin-right: 7px;
+}
+.social-icons{
+	width: 100%;	
+}
+.social-icons ul{
+    margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+.social-icons ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 12px;
+}
+.social-icons ul li a{
+    font-size: 14px;
+	font-weight: 400px;
+	color: #506a85;
+	
+	transition: 1s;
+}
+.social-icons ul li a:hover{
+	color: #00bc9c;
+}
+.main-menu{
+	width: 100%;
+	padding: 10px 0px;
+}
+.main-menu .navbar-brand{
+	margin-right: 60px;
+}
+.main-menu .bg-light{
+	background: #ffffff !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+    color: #506a85;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0px 15px;
+    transition: 1s;
+
+ }
+ .main-menu .navbar-light .navbar-nav .nav-link:hover{
+ 	color:  #00bc9c;
+ }
+ .main-menu .navbar-light .navbar-nav .active>.nav-link{
+ 	color: #00bc9c;
+ }
+ .main-menu .fa-search{
+ 	color: #506a85;
+ 	 font-size: 14px;
+ 	 cursor: pointer;
+ 	 transition: 1s;
+ }
+ .main-menu .fa-search:hover{
+ 	color: #00bc9c;
+ }
+/*header-section end*/
+
+/*Slider-section start*/
+.Slider-section{
+	width: 100%;
+}
+.Slider-section .carousel-caption{
+    bottom: 28%;
+}
+
+.Slider-section .carousel-caption h1{
+    font-size: 59px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.Slider-section .carousel-caption p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #a3b1bf;
+    line-height: 26px;
+}
+.Slider-section .carousel-caption .btn-info{
+	padding: 12px 45px;
+	background:  #00bc9c;
+	color: #ffffff;
+	border: 1px solid #00bc9c;
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 30px;
+	transition: 1s;
+}
+.Slider-section .carousel-caption .btn-info:hover{
+	background:  transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+}
+.Slider-section .banner{
+	text-align: right;
+}
+.Slider-section .banner p{
+	color: #ffffff;
+}
+.Slider-section .banner2{
+	text-align: left;
+}
+.Slider-section .carousel-caption .banner2 .ban{
+	background: #506a85;
+	width: 42%;
+	text-align: center;
+}
+.Slider-section .carousel-caption .banner2 .ner {
+	background: #506a85;
+	width: 57%;
+	text-align: center;
+}
+.Slider-section .carousel-caption .banner2 p{
+	color: #506a85;
+}
+.Slider-section .carousel-caption .banner3{
+	text-align: right;
+}
+.Slider-section .carousel-caption .banner3 .ban{
+	background: #506a85;
+    width: 55%;
+    text-align: center;
+    margin-left: 310px;	
+}
+.Slider-section .carousel-caption .banner3 .ner{
+	background: #506a85;
+    width: 64%;
+    text-align: center;
+    margin-left: 227px;	
+}
+
+.Slider-section .carousel-caption .banner3 p{
+	color: #ffffff;
+	margin-right: 105px;
+}
+.Slider-section .carousel-caption .banner3 .btn-info{
+	margin-right: 105px;
+}
+.Slider-section .carousel-caption .banner4{
+	position: absolute;
+    top: -890%;
+    left: 0%;
+    right: 0%;
+
+
+}
+
+/*Slider-section end*/
+
+/*who-we-are-section start*/
+.who-we-are-section{
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+.title{
+	text-align: center;
+	background: #ffffff;
+}
+.title h1{
+	color: #506a85;
+	font-size: 32px;
+	font-weight: 700;
+}
+.title p{
+	color: #73879c;
+	padding: 15px 0px;
+	line-height: 25px;
+	font-weight: 400;
+	font-size: 14px;
+}
+.who-we-are-section .media .media-body h5{
+    color: #506a85;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.who-we-are-section .media .media-body p{
+	color: #73879c;
+	padding: 13px 0px;
+	line-height: 25px;
+	font-weight: 400;
+	font-size: 12px;
+}
+.who-we-are-section .media{
+	padding: 30px;
+}
+/*who-we-are-section end*/
+
+/*portfolio-section start*/
+.portfolio-section{
+	width: 100%;
+	background: #f2f5f7;
+	padding-top: 60px;
+}
+.port-title{
+	text-align: center;
+	
+}
+.portfolio-section .port-title h1{
+    color: #506a85;
+	font-size: 32px;
+	font-weight: 700;
+}
+.portfolio-section .port-title p{
+    color: #73879c;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	line-height: 25px;
+	font-weight: 400;
+	font-size: 14px;
+}
+.card{
+	width: 100%;
+}
+.card img{
+	width: 100%;
+}
+.card-title{
+	text-align: center;
+	 color: #506a85;
+	font-size: 20px;
+	font-weight: 700;
+}
+.card-text{
+    color: #73879c;
+	padding: 5px 0px;
+	line-height: 25px;
+	font-weight: 400;
+	font-size: 12px;
+	text-align: center;
+}
+.portfolio-section .owl-carousel{
+	padding: 50px 0px;
+	width: 100%;
+}
+.portfolio-section .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px;
+    }
+.portfolio-section .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #00bc9c;
+}
+/*portfolio-section end*/
+
+/*get-touch css start*/
+.get-touch{
+	width: 100%;
+	padding-top: 80px;
+	text-align: center;
+	padding-bottom: 80px;
+}
+.get-touch h1{
+    color: #506a85;
+	font-size: 32px;
+	font-weight: 700;
+}
+.get-touch p{
+	color: #73879c;
+	padding-top: 5px;
+	line-height: 25px;
+	font-weight: 400;
+	font-size: 14px;
+}
+.get-touch .btn-info{
+	padding: 12px 45px;
+	background:  #00bc9c;
+	color: #ffffff;
+	border: 1px solid #00bc9c;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	transition: 1s;
+}
+.get-touch .btn-info:hover, .get-touch .btn-info:focus{
+	background:  transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+}
+/*get-touch css end*/
+
+/*footer-section css start*/
+
+.footer-section{
+	width: 100%;
+	
+}
+.top-footer{
+	width: 100%;
+	padding-bottom: 50px;
+	background: #2f4052;
+	padding-top: 55px;
+}
+.ineer-wiget{
+width: 100%;
+}
+.ineer-wiget h4{
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 32px;
+	margin-bottom: 25px;
+	color: #ffffff;
+}
+.ineer-wiget .innerimg{
+	margin-bottom: 25px;
+
+}
+.ineer-wiget p{
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 25px;
+	color: #98a6b4;
+}
+.ineer-wiget .flink{
+	color: #98a6b4;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	transition: 1s;
+}
+.ineer-wiget .flink:hover{
+	color: #00bc9c;
+}
+.ineer-wiget .flink .fa{
+	margin-left: 10px;
+}
+.ineer-wiget .img-fluid{
+	padding: 8px 0px 7px 4px;
+}
+.padd{
+	padding: 0px 15px 0px 0px !important;
+}
+.inner-info .fa{
+	margin: 0px 10px 0px 0px;
+}
+.ineer-wiget .form{
+	position: relative;
+}
+.ineer-wiget .form .btn-primary{
+	position: absolute;
+	top: 5px;
+	right: 3px;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-left: 5px;
+	padding-right: 5px;
+	background:  #00bc9c;
+	color: #ffffff;
+	border: 1px solid #00bc9c;
+	letter-spacing: 1px;
+	transition: 1s;
+}
+.ineer-wiget .form .btn-primary:hover, .ineer-wiget .form .btn-primary:focus{
+     background:  transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+}
+.ineer-wiget .form .form-control{
+    background: #4e5c6c;
+    border: 1px solid #4e5c6c;
+    padding: 9px;
+    font-size: 14px;
+    height: auto;
+    color: #ffffff;
+}
+
+.btm-footer{
+	width: 100%;
+	background: #283645;
+	padding: 15px 0px;
+}
+.inner-btm{
+	
+}
+.inner-btm p{
+	color: #5d6b79;
+	font-size: 13px;
+	font-weight: 400;
+	margin-top: 15px;
+}
+
+.inner-btm .bg-light{
+	background: #283645 !important;
+}
+.inner-btm .navbar-expand-lg .navbar-collapse {
+	padding-left: 40px;
+}
+.inner-btm .navbar-expand-lg .navbar-nav .nav-link{
+	font-size: 13px;
+	font-weight: 400;
+	color: #5d6b79; 
+	transition: 1s;
+}
+.inner-btm .navbar-expand-lg .navbar-nav .nav-link:hover{
+	background:  transparent;
+	color: #00bc9c;
+}
+.inner-btm .navbar-nav .fa-circle{
+	margin-top: 17px;
+	font-size: 5px;
+	color: #5d6b79;
+}
+/*footer-section css end*/
